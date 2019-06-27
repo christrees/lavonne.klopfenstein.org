@@ -1,0 +1,36 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background: black;
+}
+header {
+  color: white;
+  text-align: center;
+}
+h1 {
+  clear: both;
+  float: none;
+  font-style: italic;
+  color: white;
+}
+a {
+  color: green;
+}
+div.gallery {
+  margin: 3px;
+  border: 1px solid #ccc;
+  float: left;
+  max-width: 400px;
+  width: 100%;
+}
+div.gallery:hover {
+  border: 1px solid #777;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
